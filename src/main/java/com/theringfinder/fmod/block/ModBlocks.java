@@ -1,6 +1,7 @@
 package com.theringfinder.fmod.block;
 
 import com.theringfinder.fmod.FMod;
+import com.theringfinder.fmod.block.custom.DamascusForgeBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -12,6 +13,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block DAMASCUS_BLOCK = registerBlock("damascus_block", new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
+
+    public static final Block DAMASCUS_FORGE = registerBlock("damascus_forge", new DamascusForgeBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

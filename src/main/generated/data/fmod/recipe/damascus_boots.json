@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "fmod:damascus"
+    }
+  },
+  "pattern": [
+    "   ",
+    "D D",
+    "D D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fmod:damascus_boots"
+  }
+}

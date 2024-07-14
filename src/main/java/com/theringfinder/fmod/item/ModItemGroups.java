@@ -27,6 +27,8 @@ public class ModItemGroups {
                 entries.add(ModItems.DAMASCUS_LEGGINGS);
                 entries.add(ModItems.DAMASCUS_BOOTS);
 
+                entries.add(ModBlocks.DAMASCUS_FORGE);
+
                 entries.add(ModBlocks.DAMASCUS_BLOCK);
             }).build());
 
