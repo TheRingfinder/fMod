@@ -44,7 +44,7 @@ public enum ModToolMaterial implements ToolMaterial {
 
     @Override
     public TagKey<Block> getInverseTag() {
-        return null;
+        return this.inverseTag;
     }
 
     @Override

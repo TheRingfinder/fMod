@@ -13,13 +13,13 @@ public class ModItems {
 
     public static final Item DAMASCUS_PICKAXE = registerItem("damascus_pickaxe", new PickaxeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
             .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 3, 2f))));
-    public static final Item DAMASCUS_AXE = registerItem("damascus_axe", new PickaxeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
-            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 5, 1f))));
-    public static final Item DAMASCUS_SHOVEL = registerItem("damascus_shovel", new PickaxeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
+    public static final Item DAMASCUS_AXE = registerItem("damascus_axe", new AxeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 6, 0.5f))));
+    public static final Item DAMASCUS_SHOVEL = registerItem("damascus_shovel", new ShovelItem(ModToolMaterial.DAMASCUS, new Item.Settings()
             .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 2, 2.5f))));
-    public static final Item DAMASCUS_SWORD = registerItem("damascus_sword", new PickaxeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
+    public static final Item DAMASCUS_SWORD = registerItem("damascus_sword", new SwordItem(ModToolMaterial.DAMASCUS, new Item.Settings()
             .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 4, 1.75f))));
-    public static final Item DAMASCUS_HOE = registerItem("damascus_hoe", new PickaxeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
+    public static final Item DAMASCUS_HOE = registerItem("damascus_hoe", new HoeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 2, 2.5f))));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
