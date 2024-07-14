@@ -28,6 +28,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DAMASCUS_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DAMASCUS_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DAMASCUS_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.DAMASCUS_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DAMASCUS_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DAMASCUS_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DAMASCUS_BOOTS, Models.GENERATED);
     }
 
 }

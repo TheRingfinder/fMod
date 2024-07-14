@@ -7,6 +7,11 @@
   "item.fmod.damascus_sword": "Damascus Sword",
   "item.fmod.damascus_hoe": "Damascus Hoe",
 
+  "item.fmod.damascus_helmet": "Damascus Helmet",
+  "item.fmod.damascus_chestplate": "Damascus Chestplate",
+  "item.fmod.damascus_leggings": "Damascus Leggings",
+  "item.fmod.damascus_boots": "Damascus Boots",
+
   "block.fmod.damascus_block": "Block of Damascus Steel",
 
   "itemgroup.fmod": "fMod Items"

@@ -22,6 +22,11 @@ public class ModItemGroups {
                 entries.add(ModItems.DAMASCUS_SWORD);
                 entries.add(ModItems.DAMASCUS_HOE);
 
+                entries.add(ModItems.DAMASCUS_HELMET);
+                entries.add(ModItems.DAMASCUS_CHESTPLATE);
+                entries.add(ModItems.DAMASCUS_LEGGINGS);
+                entries.add(ModItems.DAMASCUS_BOOTS);
+
                 entries.add(ModBlocks.DAMASCUS_BLOCK);
             }).build());
 

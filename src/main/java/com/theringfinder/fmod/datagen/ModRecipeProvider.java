@@ -71,5 +71,38 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.DAMASCUS), conditionsFromItem(ModItems.DAMASCUS))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.DAMASCUS_HOE)));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DAMASCUS_HELMET, 1)
+                .pattern("DDD")
+                .pattern("D D")
+                .pattern("   ")
+                .input('D', ModItems.DAMASCUS)
+                .criterion(hasItem(ModItems.DAMASCUS), conditionsFromItem(ModItems.DAMASCUS))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.DAMASCUS_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DAMASCUS_CHESTPLATE, 1)
+                .pattern("D D")
+                .pattern("DDD")
+                .pattern("DDD")
+                .input('D', ModItems.DAMASCUS)
+                .criterion(hasItem(ModItems.DAMASCUS), conditionsFromItem(ModItems.DAMASCUS))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.DAMASCUS_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DAMASCUS_LEGGINGS, 1)
+                .pattern("DDD")
+                .pattern("D D")
+                .pattern("D D")
+                .input('D', ModItems.DAMASCUS)
+                .criterion(hasItem(ModItems.DAMASCUS), conditionsFromItem(ModItems.DAMASCUS))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.DAMASCUS_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DAMASCUS_BOOTS, 1)
+                .pattern("   ")
+                .pattern("D D")
+                .pattern("D D")
+                .input('D', ModItems.DAMASCUS)
+                .criterion(hasItem(ModItems.DAMASCUS), conditionsFromItem(ModItems.DAMASCUS))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.DAMASCUS_BOOTS)));
     }
 }

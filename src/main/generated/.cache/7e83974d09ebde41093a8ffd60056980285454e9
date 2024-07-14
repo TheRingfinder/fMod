@@ -1,15 +1,23 @@
-// 1.21	2024-07-13T21:49:57.8051366	fMod/Recipes
+// 1.21	2024-07-14T00:26:41.635832	fMod/Recipes
+31d6848d213c8a23ada54eddd1b041b4a6fbf028 data\fmod\recipe\damascus_helmet.json
 207c35fb125b79f5d62d83cc47dd5d2a9fe6cd3e data\fmod\advancement\recipes\tools\damascus_sword.json
+a1feca37a2ef7aa0589bb59393a685334313de23 data\fmod\advancement\recipes\misc\damascus_leggings.json
 b69838dcde5dd589305889c0dff51b6206787997 data\fmod\advancement\recipes\tools\damascus_axe.json
 5820554e4ee0cc98058132f7926e58e41d82dccf data\fmod\advancement\recipes\tools\damascus_hoe.json
 032ddc5a866edc39e1b252ce9f9cb16fa405006e data\fmod\recipe\damascus_sword.json
+cf78ce6e4b37472e8a26f4f765ae8f68b7767d8f data\fmod\advancement\recipes\misc\damascus_chestplate.json
+47a52020c7802f4596926efebfd9fcc538fe57be data\fmod\recipe\damascus_boots.json
 683f87ce7a681bfd3a48b4272eb052ca99e4f1d3 data\fmod\recipe\damascus_pickaxe.json
+62b3a5c08ccd2cd494a594c85607afbf346a5abe data\fmod\advancement\recipes\misc\damascus_helmet.json
 5fb91184e31106846035be4d4ae67ee5048a65c7 data\fmod\advancement\recipes\tools\damascus_pickaxe.json
+e36977e822fa7ad2b1eaf5655b3e7f564a325b02 data\fmod\recipe\damascus_leggings.json
 179a9d7dd368bf560136ea84e4e57f2975fdecce data\fmod\recipe\damascus_axe.json
 41dd37e9e97671be46a8d197ba1ab8a84f2449c4 data\fmod\recipe\damascus_hoe.json
 272d9225c047b32f2e7fbdd8254de412f65e119e data\fmod\recipe\damascus.json
 a7c290cf4bfd0bf0250d4b6b2dd842fd0daca88e data\fmod\recipe\damascus_block.json
 d04bb8a33b89358b234978fe9b6aedda53a099a8 data\fmod\advancement\recipes\building_blocks\damascus.json
 01fd83417a2b7bc6e566eff75d36f3e6e1ff931d data\fmod\advancement\recipes\tools\damascus_shovel.json
+eab8529371d0d8ef3ed997e78dd873c935f733aa data\fmod\advancement\recipes\misc\damascus_boots.json
 47ffd7f4faa16b3fd95e1ceda8f8f804f0977660 data\fmod\advancement\recipes\decorations\damascus_block.json
 2523fdb48d224c35213bf86c077f9a444fddeb52 data\fmod\recipe\damascus_shovel.json
+6a36b36b8d20cbaea235b1147bcfe8099f7998e1 data\fmod\recipe\damascus_chestplate.json

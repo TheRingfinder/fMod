@@ -1,10 +1,14 @@
-// 1.21	2024-07-13T21:49:57.8031371	fMod/Model Definitions
+// 1.21	2024-07-14T00:26:41.633832	fMod/Model Definitions
 9a6c8da09767946f6bc60537896d028b9dd8c2f5 assets\fmod\models\item\damascus_block.json
 1c2b2aa6fc9d0ee095f4fbfc8de1ac1c31bc0194 assets\fmod\models\item\damascus_pickaxe.json
+0bde001081f11d4e93633afd68858292ad0a2c4f assets\fmod\models\item\damascus_helmet.json
+4af343beeecfec2c8e488431b592a148d9df7ffe assets\fmod\models\item\damascus_shovel.json
+5c74f4f10f83725a52918ea1b42a322d3dcce7ba assets\fmod\models\item\damascus_leggings.json
+b2df161cd3f692eacd85506d73bb20ebe9dc3232 assets\fmod\models\item\damascus_axe.json
+2cb801e8b6f0206c4eeaf308a42fb4b6877c85cf assets\fmod\models\item\damascus_hoe.json
+4cbc10449287d2929d0707498b55c3739cf1575f assets\fmod\models\item\damascus_chestplate.json
 82bae7101a18471cc01d8d8f517ae60bac3471b5 assets\fmod\models\item\damascus.json
+5c42da2b178c65b406e79152ad1c50957e8d32ab assets\fmod\models\item\damascus_boots.json
 a9e88a2acc1a7d6cff7eae464315e08ea10e6662 assets\fmod\models\block\damascus_block.json
 d77564668f307e26a991b01811e457feb84d4a2f assets\fmod\models\item\damascus_sword.json
-4af343beeecfec2c8e488431b592a148d9df7ffe assets\fmod\models\item\damascus_shovel.json
-2cb801e8b6f0206c4eeaf308a42fb4b6877c85cf assets\fmod\models\item\damascus_hoe.json
-b2df161cd3f692eacd85506d73bb20ebe9dc3232 assets\fmod\models\item\damascus_axe.json
 ce2816d3a5987305d8aab3320589c267455089da assets\fmod\blockstates\damascus_block.json

@@ -1,1 +1,10 @@
-// 1.21	2024-07-13T21:49:57.8021352	fMod/Tags for minecraft:item
+// 1.21	2024-07-14T00:26:41.6328311	fMod/Tags for minecraft:item
+7c6bd247955fbd708f5bd5edbb96e9d03717b3ec data\minecraft\tags\item\hoes.json
+ddc7b69af20671813bbca8263c6b6f4891e05a8d data\minecraft\tags\item\shovels.json
+3108b6aefe4638d32ce777dc62487be8827a0dfc data\minecraft\tags\item\swords.json
+c55da78c8e7b1723bbf035a5ebd0357f5c7fae87 data\minecraft\tags\item\head_armor.json
+34f963d2c14c75ce7b59e854d131aca11f7d7c76 data\minecraft\tags\item\leg_armor.json
+9623b5b5f196ab0b84cafce144dcb8e57bb7e2af data\minecraft\tags\item\chest_armor.json
+54f1b62a01218d0ad61107fc5f32a1c31d9ab338 data\minecraft\tags\item\pickaxes.json
+a740f84cd6e709a75e96807b5d04ffec8ca44250 data\minecraft\tags\item\foot_armor.json
+d8968465dbd4465a24305247809c999f93afc4f6 data\minecraft\tags\item\axes.json

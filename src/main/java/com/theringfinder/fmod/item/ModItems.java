@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.Arm;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -21,6 +22,15 @@ public class ModItems {
             .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 4, 1.75f))));
     public static final Item DAMASCUS_HOE = registerItem("damascus_hoe", new HoeItem(ModToolMaterial.DAMASCUS, new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 2, 2.5f))));
+
+    public static final Item DAMASCUS_HELMET = registerItem("damascus_helmet",
+            new ArmorItem(ModArmorMaterial.DAMASCUS, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(41))));
+    public static final Item DAMASCUS_CHESTPLATE = registerItem("damascus_chestplate",
+            new ArmorItem(ModArmorMaterial.DAMASCUS, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(41))));
+    public static final Item DAMASCUS_LEGGINGS = registerItem("damascus_leggings",
+            new ArmorItem(ModArmorMaterial.DAMASCUS, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(41))));
+    public static final Item DAMASCUS_BOOTS = registerItem("damascus_boots",
+            new ArmorItem(ModArmorMaterial.DAMASCUS, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(41))));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(DAMASCUS);
