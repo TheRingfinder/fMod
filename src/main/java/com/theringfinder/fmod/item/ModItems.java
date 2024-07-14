@@ -1,6 +1,7 @@
 package com.theringfinder.fmod.item;
 
 import com.theringfinder.fmod.FMod;
+import com.theringfinder.fmod.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -24,7 +25,7 @@ public class ModItems {
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterial.DAMASCUS, 2, 2.5f))));
 
     public static final Item DAMASCUS_HELMET = registerItem("damascus_helmet",
-            new ArmorItem(ModArmorMaterial.DAMASCUS, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(41))));
+            new ModArmorItem(ModArmorMaterial.DAMASCUS, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(41))));
     public static final Item DAMASCUS_CHESTPLATE = registerItem("damascus_chestplate",
             new ArmorItem(ModArmorMaterial.DAMASCUS, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(41))));
     public static final Item DAMASCUS_LEGGINGS = registerItem("damascus_leggings",
