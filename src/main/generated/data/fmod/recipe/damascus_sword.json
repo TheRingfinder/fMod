@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "fmod:damascus"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " D ",
+    " D ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "fmod:damascus_sword"
+  }
+}

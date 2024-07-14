@@ -1,0 +1,13 @@
+{
+  "item.fmod.damascus": "Damascus Steel Ingot",
+
+  "item.fmod.damascus_pickaxe": "Damascus Pickaxe",
+  "item.fmod.damascus_axe": "Damascus Axe",
+  "item.fmod.damascus_shovel": "Damascus Shovel",
+  "item.fmod.damascus_sword": "Damascus Sword",
+  "item.fmod.damascus_hoe": "Damascus Hoe",
+
+  "block.fmod.damascus_block": "Block of Damascus Steel",
+
+  "itemgroup.fmod": "fMod Items"
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fmod",
+	"version": "${version}",
+	"name": "fMod",
+	"description": "TheRingfinder's first mod!",
+	"authors": [
+		"TheRingfinder!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.theringfinder.fmod.FMod"
+		],
+		"client": [
+			"com.theringfinder.fmod.FModClient"
+		],
+		"fabric-datagen": [
+			"com.theringfinder.fmod.FModDataGenerator"
+		]
+	},
+	"mixins": [
+		"fmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

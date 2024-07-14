@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_damascus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fmod:damascus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:damascus_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_damascus"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:damascus_block"
+    ]
+  }
+}
