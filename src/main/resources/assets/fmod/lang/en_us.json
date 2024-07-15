@@ -14,5 +14,7 @@
 
   "block.fmod.damascus_block": "Block of Damascus Steel",
 
+  "block.fmod.damascus_forge": "Damascus Forge",
+
   "itemgroup.fmod": "fMod Items"
 }

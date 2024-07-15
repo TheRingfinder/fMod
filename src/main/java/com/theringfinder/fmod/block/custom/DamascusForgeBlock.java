@@ -31,6 +31,6 @@ public class DamascusForgeBlock extends BlockWithEntity implements BlockEntityPr
 
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return null
+        return
     }
 }
